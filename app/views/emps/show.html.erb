@@ -1,0 +1,11 @@
+<h2><%= "#{@emps.name}'s Details" %></h2>
+<label>Name:</label>
+<%= @emps.name%><br>
+<label>Age:</label>
+<%= @emps.age%><br>
+<label>Gender:</label>
+<%= @emps.gender%><br>
+<label>Designation:</label>
+<%= @emps.designation%><br>
+<%= link_to "Edit", edit_emp_path %><br>
+<%= button_to "Delete", @emp, method: :delete %><br>

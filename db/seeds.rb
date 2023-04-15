@@ -1,0 +1,5 @@
+Emp.create(name: 'Hari', age: '23', gender: 'Male', designation: 'ASD')
+Emp.create(name: 'Leo', age: '27', gender: 'Male', designation: 'ASD')
+Emp.create(name: 'Nora', age: '32', gender: 'Female', designation: 'SSD')
+Emp.create(name: 'Kiara', age: '24', gender: 'Female', designation: 'SSD')
+Emp.create(name: 'Karen', age: '44', gender: 'Female', designation: 'TL')
